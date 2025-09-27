@@ -52,7 +52,8 @@ function Hero() {
           </a>
         </span>
         <p className={styles.description}>
-          Aspiring Frontend Developer with a passion for building clean and responsive web apps
+          {/* Aspiring Frontend Developer with a passion for building clean and responsive web apps */}
+          Frontend Developer Intern passionate about creating modern, user-friendly, and responsive web apps while continuously improving my skill
         </p>
         <a href={CV} download>
           <button className="hover">Resume</button>
