@@ -38,7 +38,7 @@ function Hero() {
         <h1>
           ANEEKA
         </h1>
-        <h2>Frontend Developer</h2>
+        <h2>Frontend Developer | Turning designs into smooth, responsive experiences </h2>
         <span>
           <a href="mailto:aneeka.0026@gmail.com" target="_blank">
             <img src={GmailIcon} alt="Gmail icon" />
