@@ -27,26 +27,19 @@ function Projects() {
           link="https://imagessearc.netlify.app/"
           h3="Image Search Engine"
           p="Web Page"
-          {/* tech={["JavaScript", "Unsplash image API", "HTML", "CSS"]} */}
-          
-          {/* codelink="https://github.com/aneeka026/imagesearch" */}
         />
         <ProjectCard
           src={act}
-          title="Avyukt Core Technologies Website"
-          type="Web App"
-          tech={["React","Bootstrap", "JavaScript", "CSS", "HTML"]}
           link="https://act-assesment-task.netlify.app/#solutions"
-          codelink="https://github.com/aneeka026/ACT-assessment-task"
+          h3="Avyukt Core Technologies Website"
+          p="Web App"
         />
         
         <ProjectCard
           src={planner}
-          title="The Happiness Planner"
-          type="Web App"
-          tech={["React", "JavaScript", "CSS", "HTML"]}
           link="https://happiness-assessment.netlify.app/"
-          codelink="https://github.com/aneeka026/happiness-plans-assessment"
+          h3="The Happiness Planner"
+          p="Web App"
         />
         {/* <ProjectCard
           src={tictactoe}
