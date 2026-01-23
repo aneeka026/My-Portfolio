@@ -18,7 +18,7 @@ function Projects() {
       <div className={styles.projectsContainer}>
         <ProjectCard
           src={crypto}
-          link="https://github.com/aneeka026/CryptoTracker-Project"
+          link="https://cryptoplace0app.netlify.app/"
           h3="Crypto Price Tracker"
           p="Web App"
         />
@@ -67,7 +67,7 @@ function Projects() {
         /> */}
         <ProjectCard
           src={TaskManager}
-          link="https://github.com/aneeka026/Task-Manager-"
+          link="https://tasklist0.netlify.app/"
           h3="Task Manager"
           p="Web App"
         />
