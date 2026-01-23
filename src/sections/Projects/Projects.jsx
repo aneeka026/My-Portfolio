@@ -24,11 +24,12 @@ function Projects() {
         />
         <ProjectCard
           src={ise}
-          title="Image Search Engine"
-          type="Web Page"
-          tech={["JavaScript", "Unsplash image API", "HTML", "CSS"]}
-          livelink="https://imagessearc.netlify.app/"
-          codelink="https://github.com/aneeka026/imagesearch"
+          link="https://imagessearc.netlify.app/"
+          h3="Image Search Engine"
+          p="Web Page"
+          {/* tech={["JavaScript", "Unsplash image API", "HTML", "CSS"]} */}
+          
+          {/* codelink="https://github.com/aneeka026/imagesearch" */}
         />
         <ProjectCard
           src={act}
