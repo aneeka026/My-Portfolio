@@ -1,12 +1,15 @@
 import styles from './ProjectsStyles.module.css';
 import crypto from '../../assets/crypto.png';
-import tictactoe from '../../assets/tictactoe.png';
+// import tictactoe from '../../assets/tictactoe.png';
 import amazon from '../../assets/amazon.png';
-import rps from '../../assets/rps.png';
+// import rps from '../../assets/rps.png';
 import ProjectCard from '../../common/ProjectCard';
-import Calculator from '../../assets/Calculator.png';
+// import Calculator from '../../assets/Calculator.png';
 import TaskManager from '../../assets/TaskManager.png';
-import spotify from '../../assets/spotify-1.png';
+// import spotify from '../../assets/spotify-1.png';
+import planner from '../../assets/planner.png';
+import act from '../../assets/act.png';
+import ise from '../../assets/ise.png';
 
 function Projects() {
   return (
@@ -20,41 +23,66 @@ function Projects() {
           p="Web App"
         />
         <ProjectCard
+          src={ise}
+          title="Image Search Engine"
+          type="Web Page"
+          tech={["JavaScript", "Unsplash image API", "HTML", "CSS"]}
+          livelink="https://imagessearc.netlify.app/"
+          codelink="https://github.com/aneeka026/imagesearch"
+        />
+        <ProjectCard
+          src={act}
+          title="Avyukt Core Technologies Website"
+          type="Web App"
+          tech={["React","Bootstrap", "JavaScript", "CSS", "HTML"]}
+          link="https://act-assesment-task.netlify.app/#solutions"
+          codelink="https://github.com/aneeka026/ACT-assessment-task"
+        />
+        
+        <ProjectCard
+          src={planner}
+          title="The Happiness Planner"
+          type="Web App"
+          tech={["React", "JavaScript", "CSS", "HTML"]}
+          link="https://happiness-assessment.netlify.app/"
+          codelink="https://github.com/aneeka026/happiness-plans-assessment"
+        />
+        {/* <ProjectCard
           src={tictactoe}
           link="https://github.com/aneeka026/Tic-Tac-Toe"
           h3="Tic Tac Toe"
           p="Web App"
-        />
+        /> */}
         <ProjectCard
           src={amazon}
           link="https://github.com/aneeka026/Amazon-Clone"
           h3="Amazon Clone"
           p="Web Page"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={rps}
           link="https://github.com/aneeka026/Rock-Paper-Scissors"
           h3="Rock Paper Scissors"
           p="Web App"
-        /> 
-        <ProjectCard
+        />  */}
+        {/* <ProjectCard
           src={Calculator}
           link="https://github.com/aneeka026/CODSOFT/tree/main/Level-1%20Task-3%20Calculator"
           h3="Calculator"
           p="Web App"
-        />
+        /> */}
         <ProjectCard
           src={TaskManager}
           link="https://github.com/aneeka026/Task-Manager-"
           h3="Task Manager"
           p="Web App"
         />
-        <ProjectCard
+        {/* <ProjectCard
           src={spotify}
           link="https://github.com/aneeka026/spotify-clone-ui"
           h3="Spotify Clone"
           p="Web Page"
-        />
+        /> */}
       </div>
     </section>
   );
